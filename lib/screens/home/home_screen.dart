@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_app_flutter/constants.dart';
+import 'package:shop_app_flutter/screens/home/components/body.dart';
 
 class Homescreen extends StatelessWidget {
   const Homescreen({super.key});
@@ -9,6 +10,7 @@ class Homescreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
+      body: Body(),
     );
   }
 
@@ -16,10 +18,6 @@ class Homescreen extends StatelessWidget {
     return AppBar(
       backgroundColor: Colors.white,
       elevation: 0,
-      leading: IconButton(
-        icon: SvgPicture.asset("assets/icons/back.svg"),
-        onPressed: () {},
-      ),
       actions: [
         IconButton(
           onPressed: (() {}),

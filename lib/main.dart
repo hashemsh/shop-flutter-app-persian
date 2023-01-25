@@ -16,10 +16,15 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
+        textTheme: Theme.of(context)
+            .textTheme
+            .apply(bodyColor: kTextColor, fontFamily: 'IranSans'),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Homescreen(),
+      home: Directionality(
+        textDirection: TextDirection.rtl,
+        child: Homescreen(),
+      ),
     );
   }
 }
