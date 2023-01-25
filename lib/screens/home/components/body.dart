@@ -28,6 +28,7 @@ class Body extends StatelessWidget {
             child: GridView.builder(
               physics: const BouncingScrollPhysics(),
               itemCount: products.length,
+              padding: const EdgeInsets.only(bottom: 30),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 mainAxisSpacing: kDefaultPadding,
@@ -39,7 +40,7 @@ class Body extends StatelessWidget {
               ),
             ),
           ),
-        )
+        ),
       ],
     );
   }
