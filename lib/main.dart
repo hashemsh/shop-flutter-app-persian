@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             .apply(bodyColor: kTextColor, fontFamily: 'IranSans'),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Directionality(
+      home: const Directionality(
         textDirection: TextDirection.rtl,
         child: Homescreen(),
       ),
