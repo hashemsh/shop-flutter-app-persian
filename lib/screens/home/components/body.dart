@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app_flutter/constants.dart';
 import 'package:shop_app_flutter/models/Product.dart';
+import 'package:shop_app_flutter/screens/details/details_screen.dart';
 import 'package:shop_app_flutter/screens/home/components/categories.dart';
 import 'package:shop_app_flutter/screens/home/components/item_card.dart';
 
@@ -16,7 +17,7 @@ class Body extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
           child: Text(
-            " هر چی خانم میخواد .. ",
+            " هر چی خانم میخواد ... ",
             style: theme.textTheme.headline6!
                 .copyWith(fontWeight: FontWeight.bold),
           ),
@@ -37,6 +38,14 @@ class Body extends StatelessWidget {
               ),
               itemBuilder: (context, index) => ItemCard(
                 product: products[index],
+                press: () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => DetailsScreen(
+                      product: products[index],
+                    ),
+                  ),
+                ),
               ),
             ),
           ),
