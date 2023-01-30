@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app_flutter/constants.dart';
-import 'package:shop_app_flutter/models/Product.dart';
+import 'package:shop_app_flutter/models/product.dart';
 
 class ProductDetailsHeader extends StatelessWidget {
   const ProductDetailsHeader({
@@ -56,9 +56,12 @@ class ProductDetailsHeader extends StatelessWidget {
                 width: kDefaultPadding,
               ),
               Expanded(
-                child: Image.asset(
-                  product.image,
-                  fit: BoxFit.fill,
+                child: Hero(
+                  tag: "${product.id}",
+                  child: Image.asset(
+                    product.image,
+                    fit: BoxFit.fill,
+                  ),
                 ),
               ),
             ],

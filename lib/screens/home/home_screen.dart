@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_app_flutter/constants.dart';
 import 'package:shop_app_flutter/screens/home/components/body.dart';
 
@@ -22,15 +21,15 @@ class Homescreen extends StatelessWidget {
       actions: [
         IconButton(
           onPressed: (() {}),
-          icon: SvgPicture.asset(
-            "assets/icons/search.svg",
+          icon: const Icon(
+            Icons.search_rounded,
             color: kTextColor,
           ),
         ),
         IconButton(
           onPressed: (() {}),
-          icon: SvgPicture.asset(
-            "assets/icons/cart.svg",
+          icon: const Icon(
+            Icons.shopping_cart_outlined,
             color: kTextColor,
           ),
         ),
