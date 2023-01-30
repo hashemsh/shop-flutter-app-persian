@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_app_flutter/constants.dart';
-import 'package:shop_app_flutter/models/Product.dart';
+import 'package:shop_app_flutter/models/product.dart';
 import 'package:shop_app_flutter/screens/details/components/body.dart';
 
 class DetailsScreen extends StatelessWidget {
@@ -29,17 +28,11 @@ class DetailsScreen extends StatelessWidget {
       actions: [
         IconButton(
           onPressed: (() {}),
-          icon: SvgPicture.asset(
-            "assets/icons/search.svg",
-            color: Colors.white,
-          ),
+          icon: const Icon(Icons.search_rounded),
         ),
         IconButton(
           onPressed: (() {}),
-          icon: SvgPicture.asset(
-            "assets/icons/cart.svg",
-            color: Colors.white,
-          ),
+          icon: const Icon(Icons.shopping_cart_outlined),
         ),
         const SizedBox(
           width: kDefaultPadding / 2,
