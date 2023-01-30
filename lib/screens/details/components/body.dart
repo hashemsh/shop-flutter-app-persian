@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shop_app_flutter/constants.dart';
-import 'package:shop_app_flutter/models/Product.dart';
-import 'package:shop_app_flutter/screens/details/components/cart_counter.dart';
+import 'package:shop_app_flutter/models/product.dart';
+import 'package:shop_app_flutter/screens/details/components/add_to_cart.dart';
 import 'package:shop_app_flutter/screens/details/components/color_and_size.dart';
+import 'package:shop_app_flutter/screens/details/components/counter_with_fav_btn.dart';
 import 'package:shop_app_flutter/screens/details/components/description.dart';
 import 'package:shop_app_flutter/screens/details/components/product_details_header.dart';
 
@@ -15,6 +16,7 @@ class Body extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     TextTheme theme = Theme.of(context).textTheme;
     return SingleChildScrollView(
+      physics: const BouncingScrollPhysics(),
       child: Column(
         children: [
           SizedBox(
@@ -38,8 +40,12 @@ class Body extends StatelessWidget {
                   child: Column(
                     children: [
                       ColorAndSize(theme: theme, product: product),
+                      const SizedBox(height: kDefaultPadding / 2),
                       Description(product: product),
-                      CartCounter(),
+                      const SizedBox(height: kDefaultPadding / 2),
+                      const CounterWithFavBtn(),
+                      const SizedBox(height: kDefaultPadding / 2),
+                      AddToCart(product: product)
                     ],
                   ),
                 ),
