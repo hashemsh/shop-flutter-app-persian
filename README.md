@@ -22,7 +22,9 @@ If you have any recommendations or suggestions or even see an error in the codes
 I am a developer and I really like Flutter and would like to learn more
 
 
-## Demo
+## TODO
 
-Insert gif or link to demo
+⬜	 Complete the authentication Screen (login and register)
+⬜	 make checkout screen 
+⬜	 other category data and tab list for category 
 
