@@ -1,16 +1,23 @@
-# shop_app_flutter
 
-A new Flutter project.
+# Flutter shop app - Persian and RTL 
 
-## Getting Started
+A new project with Flutter to learn more complex topics, as well as a right-to-left version in the application for Persian and Arabic languages.
+An educational project from YouTube videos .
 
-This project is a starting point for a Flutter application.
+If you have any recommendations or suggestions or even see an error in the codes that can help me improve and improve the quality of my work, I would appreciate it if you could send me a message or express it in the issue section.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## 🚀 About Me
+I am a developer and I really like Flutter and would like to learn more
+
+
+## Demo
+
+Insert gif or link to demo
+
