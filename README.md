@@ -24,7 +24,7 @@ I am a developer and I really like Flutter and would like to learn more
 
 ## TODO
 
-⬜	 Complete the authentication Screen (login and register)
-⬜	 make checkout screen 
-⬜	 other category data and tab list for category 
+⬜	 Complete the authentication Screen (login and register)<br>
+⬜	 make checkout screen <br>
+⬜	 other category data and tab list for category <br>
 
