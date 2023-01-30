@@ -10,7 +10,12 @@ If you have any recommendations or suggestions or even see an error in the codes
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p>
+<img src="https://github.com/hashemsh/shop-flutter-app-persian/blob/master/assets/home.png" width="400" height="100%">
+ 
+<img src="https://github.com/hashemsh/shop-flutter-app-persian/blob/master/assets/detail.png" width="400" height="100%">
+</p>
+
 
 
 ## 🚀 About Me
