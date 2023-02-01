@@ -28,3 +28,6 @@ I am a developer and I really like Flutter and would like to learn more
 ⬜	 make checkout screen <br>
 ⬜	 other category data and tab list for category <br>
 
+## Demo
+
+[download APK](https://github.com/hashemsh/shop-flutter-app-persian/raw/master/app-release%20.apk)
