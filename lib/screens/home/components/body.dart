@@ -18,7 +18,7 @@ class Body extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
           child: Text(
             " هر چی خانم میخواد ... ",
-            style: theme.textTheme.headline6!
+            style: theme.textTheme.titleLarge!
                 .copyWith(fontWeight: FontWeight.bold),
           ),
         ),

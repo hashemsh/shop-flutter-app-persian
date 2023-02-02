@@ -21,14 +21,14 @@ class ProductDetailsHeader extends StatelessWidget {
         children: [
           Text(
             'کیف های جذاب و دیدنی ',
-            style: theme.subtitle2?.copyWith(color: Colors.white),
+            style: theme.titleSmall?.copyWith(color: Colors.white),
           ),
           const SizedBox(
             height: 10,
           ),
           Text(
             product.title,
-            style: theme.headline4
+            style: theme.headlineMedium
                 ?.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
           ),
           const SizedBox(
@@ -41,10 +41,10 @@ class ProductDetailsHeader extends StatelessWidget {
                   children: [
                     TextSpan(
                         text: "قیمت\n",
-                        style: theme.subtitle2!.copyWith(color: Colors.white)),
+                        style: theme.titleSmall!.copyWith(color: Colors.white)),
                     TextSpan(
                       text: "${product.price} تومان",
-                      style: theme.headline4?.copyWith(
+                      style: theme.headlineMedium?.copyWith(
                           color: Colors.white,
                           fontSize: 22,
                           fontWeight: FontWeight.bold),

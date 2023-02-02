@@ -32,7 +32,7 @@ class _CartCounterState extends State<CartCounter> {
             numOfItem.toString().padLeft(2, "0"),
             style: Theme.of(context)
                 .textTheme
-                .headline6!
+                .titleLarge!
                 .copyWith(fontWeight: FontWeight.bold),
           ),
         ),

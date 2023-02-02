@@ -23,7 +23,7 @@ class ColorAndSize extends StatelessWidget {
             children: [
               Text(
                 "رنگ",
-                style: theme.subtitle1!.copyWith(color: kTextColor),
+                style: theme.titleMedium!.copyWith(color: kTextColor),
               ),
               Row(
                 children: const [
@@ -41,14 +41,14 @@ class ColorAndSize extends StatelessWidget {
         Expanded(
           child: RichText(
             text: TextSpan(
-              style: theme.subtitle1!.copyWith(
+              style: theme.titleMedium!.copyWith(
                 color: kTextColor,
               ),
               children: [
                 const TextSpan(text: "سایز\n"),
                 TextSpan(
                   text: "${product.size}",
-                  style: theme.headline6!.copyWith(
+                  style: theme.titleLarge!.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
                 ),
